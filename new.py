@@ -7,4 +7,4 @@ def create_dataframe():
     # Add a new column 'F' with random integers between 1 and 10
     df['F'] = np.random.randint(1, 11, size=(100,))
     
-    return df   
+    df
